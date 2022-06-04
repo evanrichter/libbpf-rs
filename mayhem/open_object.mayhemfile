@@ -1,0 +1,6 @@
+project: libbpf-rs
+target: open-object
+
+cmds:
+  - cmd: /open_object_no_inst @@
+    libfuzzer: false
